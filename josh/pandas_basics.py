@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #load data
-dataset = pd.read_csv('california_housing_train.csv')
+dataset = pd.read_csv('data/california_housing_train.csv')
 
 #IMPORTANT: must use print to show basic dataset
 print(dataset.describe())
